@@ -1,0 +1,90 @@
+@import url("../css/pages/auth/login.css");
+@import url("../css/pages/ficha/ficha_unidade_equipamento.css");
+
+.table-size {
+    /*ficha de equipamentos*/
+    width: 100%;
+    word-break: break-all;
+}
+
+#obs {
+    /*ficha de equipamentos*/
+    resize: none;
+}
+
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 200;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    background: white;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 2.5%;
+}
+
+.sublinhado_enfeite {
+    background-color: #000000;
+}
+
+.modal-actions,
+.modal h1 {
+    text-align: center;
+}
+
+nav.navbar-green,
+footer.footer {
+    background-color: #388e3c;
+}
+
+nav .text-nav,
+footer.footer {
+    color: #ffffff !important;
+}
+
+nav .text-nav:hover {
+    text-decoration: underline !important;
+}
+
+footer.footer {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 432%);
+    padding: 5px 0 5px 0;
+}
+
+@media (max-width: 668px) {
+    .modal {
+        display: block;
+        position: fixed;
+        z-index: 200;
+        top: 39%;
+        left: 12%;
+        width: 77%;
+        background: white;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+        padding: 1rem;
+        border-radius: 2.5%;
+    }
+}
+
+.font-f {
+    @font-face {
+        font-family: BebasNeue;
+        src: url('/fonts/BebasNeue-Regular.otf');
+    }
+}

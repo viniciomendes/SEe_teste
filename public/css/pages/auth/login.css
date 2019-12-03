@@ -1,0 +1,15 @@
+.card {
+    padding: 30px 20px 30px 20px;
+}
+
+.box-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, 50%);
+}
+
+@media (max-width: 668px) {
+    .box-center {
+        transform: translate(-60%, 35%);
+    }
+}

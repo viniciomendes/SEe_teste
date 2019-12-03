@@ -1,0 +1,7 @@
+Sumario banco de dados
+
+Tabelas:
+- cod_unidades
+	Tabela que contem código das unidades, para escolas INEP e para nucleos e afins CNPJ
+- unidades
+	Tabela que contêm informações sobre a unidades registrada, assim como nome, 
